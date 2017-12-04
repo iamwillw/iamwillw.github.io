@@ -89,7 +89,7 @@ a:active {
 }
 
 a[href$=".pdf"] {
-	background:transparent url("assets/images/pdf.gif") no-repeat center left;padding-left:20px
+	background:transparent url("/assets/images/pdf.gif") no-repeat center left;padding-left:20px
 }
 
 
