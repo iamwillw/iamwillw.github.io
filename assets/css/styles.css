@@ -330,9 +330,13 @@ article ul {
 }
 
 .portfolio-gallery-item {
-	width: 30%;
+	width: 31%;
 	float: left;
-	margin: 0 .5em .5em .5em; 
+	margin: 0 .8em .5em .5em; 
+}
+
+.portfolio-gallery-item:nth-child(3) {
+	margin-left:0;
 }
 
 .portfolio-gallery-item:nth-child(4) {
