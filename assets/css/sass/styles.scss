@@ -188,7 +188,11 @@ main .wrap {
 }
 
 /* Navigation */
-#site-phone-menu { margin-right: 10px; }
+#site-phone-menu { 
+	margin-right: 10px; 
+	position: absolute;  /* need a better solution! */
+	top: 25px;
+	right: 5px;}
 
 #site-phone-menu a {
 	float: right;
