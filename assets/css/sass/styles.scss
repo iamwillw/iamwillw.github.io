@@ -190,9 +190,9 @@ main .wrap {
 /* Navigation */
 #site-phone-menu { 
 	margin-right: 10px; 
-	position: absolute;  /* need a better solution! */
+	/*position: absolute;   
 	top: 25px;
-	right: 5px;}
+	right: 5px;*/}
 
 #site-phone-menu a {
 	float: right;
@@ -209,6 +209,7 @@ main .wrap {
 	border-radius: 4px;
 	border: 1px solid #212121;
     margin-top: 1.5em;
+	margin-right: 10px;
 	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 }
 
@@ -365,7 +366,7 @@ article ul {
 /* Media queries */
 @media only screen and (max-width: 400px) {
 	#site-phone-menu a { 
-		margin: 0 auto 10px;
+		margin: 20px auto 10px;
 	}	
 }
 
