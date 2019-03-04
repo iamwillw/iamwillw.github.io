@@ -320,12 +320,15 @@ article ul {
 	clear:left;
 }
 
+.portfolio-item-image,
+.portfolio-gallery-item a { 
+	display:block;
+}
 
 .portfolio-gallery-item a:hover,
 .portfolio-item-image:hover,
 .portfolio-gallery-item:hover { 
 	background-color: transparent; 
-
 }
 
 
