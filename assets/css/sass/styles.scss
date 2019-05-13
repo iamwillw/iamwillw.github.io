@@ -89,12 +89,12 @@ a:active {
 
 /* Icons */
 .pdf {
-	background:none;padding-left:0
+	padding-right:.25em;
 }
-
+/*
 a[href$=".pdf"] {
-	background:transparent url("/assets/images/pdf.gif") no-repeat center left;padding-left:20px
-}
+	background:transparent url("/assets/images/pdf.gif") no-repeat center left;padding-left:20px;
+}*/
 
 
 /* iFrame container styles */
@@ -159,6 +159,8 @@ main .wrap {
 		#site-header:after {
 			clear:both;
 		}
+
+#skiplinks { padding: .5em;}
 
 #site-branding {
     margin: .75em auto;
