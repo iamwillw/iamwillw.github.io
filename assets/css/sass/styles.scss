@@ -40,7 +40,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	outline: 0;
+	outline: 0; /* Good, but need to make sure outline is defined on :focus states. */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
