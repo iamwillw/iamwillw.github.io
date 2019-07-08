@@ -1,0 +1,84 @@
+body {
+    background-color: #000;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("nasa-Q1p7bh3SHj8-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+header {
+
+}
+
+nav { 
+
+ }
+
+main {
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.row {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+.col {
+    border: 2px solid #fff;
+    border-radius: .5rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    margin:2rem 1rem;
+    font-size:1.5rem;
+}
+
+a.btn { 
+    margin:2rem 1rem;
+ }
+
+footer { 
+
+}
+
+
+/******* MEDIA QUERIES ********/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    h1 {
+        font-size:1.75rem;
+    }
+ }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    h1 {
+        font-size:2rem;
+    }
+ }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    h1 {
+        font-size:2.5rem;
+    }
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    h1 {
+        font-size:3rem;
+    }
+ }
