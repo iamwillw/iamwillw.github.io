@@ -75,7 +75,7 @@ footer {
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
     h1 {
-        font-size:2rem;
+        font-size:3rem;
     }
  }
 
