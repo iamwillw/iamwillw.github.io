@@ -3,20 +3,20 @@
 <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Portfolio | SYE Productions: Web Development and Design</title>
+        <title>Portfolio | SYE Productions: Web Development and Design by Will Wittstruck</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <link rel="stylesheet" href="assets/css/styles.css" type="text/css" media="all">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway%3A400%2C700&#038;ver=4.8.1-RC2-41203" type="text/css" media="all" />
 </head>
-<body id="home">
+<body id="portfolio">
 <div id="skiplinks" class="wrap"><a href="#content">Skip to main content</a></div>
 <header id="site-header">
 	<div class="wrap">
 		<section id="site-branding">
 			<h1>SYE Productions</h1>
-			<h2>Web Development and Design</h2>
+			<h2>Web Development and Design by Will&nbsp;Wittstruck</h2>
 		</section>
 		<nav>
 			<ul>
@@ -192,8 +192,11 @@
 </main>
 <footer id="site-footer">
 	<div class="wrap">
-		<p>&copy; 2008-2019</p> 
+		<p>&copy; <span id="year">2019</span></p> 
 	</div>
 </footer>
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
 </body>
 </html>

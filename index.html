@@ -3,7 +3,7 @@
 <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Home | SYE Productions: Web Development and Design</title>
+        <title>Home | SYE Productions: Web Development and Design by Will Wittstruck</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
@@ -16,7 +16,7 @@
 	<div class="wrap">
 		<section id="site-branding">
 			<h1>SYE Productions</h1>
-			<h2>Web Development and Design</h2>
+			<h2>Web Development and Design by Will&nbsp;Wittstruck</h2>
 		</section>
 		<nav>
 			<ul>
@@ -125,8 +125,11 @@
 </main>
 <footer id="site-footer">
 	<div class="wrap">
-		<p>&copy; 2008-2019</p> 
+		<p>&copy; <span id="year">2019</span></p> 
 	</div>
 </footer>
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
 </body>
 </html>
