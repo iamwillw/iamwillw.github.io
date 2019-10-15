@@ -25,4 +25,4 @@ var x = setInterval(function() {
     clearInterval(x);
     document.getElementById("countdown").innerHTML = "Happy Halloween!";
   }
-}, 1000);
+}, 1000);	
