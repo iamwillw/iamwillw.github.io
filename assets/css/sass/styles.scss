@@ -389,6 +389,12 @@ figcaption {
 	border-top-left-radius: 6px;
 	border-top-right-radius: 6px;
 	font-size: 1.2em;
+	margin-bottom:0; }
+
+.gradient {
+	display:block;
+	height: 4em;
+	background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0)); 
 }
 
 .portfolio-card h2 a { display:block;}
