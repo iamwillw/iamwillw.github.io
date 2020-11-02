@@ -121,6 +121,24 @@ a[href$=".pdf"] {
 	border:none; 
 }
 
+table {
+	border-collapse: collapse;
+	background-color:#212121;
+	margin-bottom: 1em; 
+	width:100% 
+}
+caption {text-align: left;}
+th {
+	font-weight: bold;
+	color: #000;
+	background-color: #ff8000; 
+}
+td, th {
+	border: 1px solid #ff8000;
+	padding: 8px;
+	text-align: center;
+}
+
 /* Framework */
 .wrap { 
 	margin: 0 auto;
@@ -423,6 +441,8 @@ figcaption {
 	}*/
 	nav ul { margin-right: 10px; }
 	
+	table { width:50% }
+
 	.portfolio-item-image {
 		float: right;
 		width: 33%;
